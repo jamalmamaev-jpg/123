@@ -2,13 +2,12 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Search, Calendar, Users, MapPin, Play, ShieldCheck, Video, ArrowRight, CloudSnow } from 'lucide-react';
+import { Search, Calendar, Users, MapPin, Play, ArrowRight, CloudSnow } from 'lucide-react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import ResortCard from '@/components/shared/ResortCard';
 import SnowReport from '@/components/shared/SnowReport';
-import BookingButton from '@/components/shared/BookingButton';
-import { resorts, packages } from '@/data/mockData';
+import { resorts } from '@/data/mockData';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
