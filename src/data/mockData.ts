@@ -11,7 +11,13 @@ export const resorts = [
     priceLevel: "$$$",
     lifts: 88,
     description: "Known as the 'cradle of alpine skiing', St. Anton offers some of the most challenging and beautiful terrain in the world.",
-    stats: { blue: "131km", red: "123km", black: "51km" }
+    stats: { blue: "131km", red: "123km", black: "51km" },
+    snowReport: {
+      depth: "145cm",
+      newSnow: "15cm",
+      status: "Open",
+      lastUpdated: "10 mins ago"
+    }
   },
   {
     id: "ischgl",
@@ -25,7 +31,13 @@ export const resorts = [
     priceLevel: "$$$",
     lifts: 45,
     description: "Ischgl is famous for its high-altitude skiing and legendary après-ski scene.",
-    stats: { blue: "47km", red: "143km", black: "49km" }
+    stats: { blue: "47km", red: "143km", black: "49km" },
+    snowReport: {
+      depth: "110cm",
+      newSnow: "5cm",
+      status: "Open",
+      lastUpdated: "1 hour ago"
+    }
   },
   {
     id: "saalbach",
@@ -39,7 +51,13 @@ export const resorts = [
     priceLevel: "$$",
     lifts: 70,
     description: "One of the largest and most diverse ski areas in Austria, perfect for families and long cruises.",
-    stats: { blue: "140km", red: "112km", black: "18km" }
+    stats: { blue: "140km", red: "112km", black: "18km" },
+    snowReport: {
+      depth: "85cm",
+      newSnow: "0cm",
+      status: "Limited",
+      lastUpdated: "2 hours ago"
+    }
   }
 ];
 

@@ -14,6 +14,7 @@ import VideoBonus from "./pages/VideoBonus";
 import Redeem from "./pages/Redeem";
 import CompareResorts from "./pages/CompareResorts";
 import Guides from "./pages/Guides";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/redeem/:trip_id" element={<Redeem />} />
           <Route path="/compare/resorts" element={<CompareResorts />} />
           <Route path="/guides" element={<Guides />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </HashRouter>
