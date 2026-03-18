@@ -16,15 +16,16 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1482867996988-29ec3aee816d?auto=format&fit=crop&q=80&w=2000" 
-            className="w-full h-full object-cover"
-            alt="Austrian Alps"
-          />
-          <div className="absolute inset-0 bg-black/40" />
-        </div>
+      <section 
+        className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-primary"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=2070&auto=format&fit=crop")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-black/40 z-0" />
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
           <motion.div
